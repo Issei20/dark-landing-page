@@ -17,7 +17,7 @@ p {
 .container-core {
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 1.5fr 1fr 1fr 0.5fr;
+    grid-template-rows: 1.5fr 1fr 1.1fr 0.5fr;
     justify-items: center;
     gap: 5vh;
    
@@ -134,7 +134,7 @@ p {
 .container-reviews {
     display: flex;
     gap: 2vw;
-    margin-bottom: 40vh;
+    margin-bottom: 37vh;
 }
 
 .container-text-feat {
@@ -181,7 +181,7 @@ p {
     padding-left: 6vw;
     width: 35vw;
     left: 50%;
-    transform: translate(-50%, 160%);
+    transform: translate(-50%, 147%);
     align-items: center;
     border-radius: 0.3rem;
     box-shadow: 1px 4px 7px 3px rgba(0, 0, 0, 0.034);
