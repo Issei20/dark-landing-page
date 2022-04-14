@@ -3,10 +3,11 @@
 .nav-container {
     display: flex;
     justify-content: space-between;
-    padding: 5vh;
+    padding: 6vh;
     font-family: 'Raleway', sans-serif;
     background:hsl(217, 28%, 15%);
     align-items: center;
+    font-size: 1rem;
 }
 
 .nav-list {
@@ -14,7 +15,6 @@
     list-style: none;
     gap: 2vw;
     color: white;
-    margin-right: 2vw;
     cursor: pointer;
 }
 
@@ -26,11 +26,12 @@
 @media (max-width: 1200px) {
     .nav-container {
         align-items: center;
+        padding: 4.1vh;
     }
 
     .nav-list {
         gap: 4vw;
-        font-size: 0.8rem;
+        font-size: 0.85rem;
     }   
 
     .logoNav {

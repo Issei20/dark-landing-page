@@ -77,8 +77,7 @@ function Core() {
      <div className="container-announce">
        <img className="illustrationStay" src={illustrationStay} alt="people chat"></img>
         <div className="container-text-feat">
-          <h1>Stay productive,
-            wherever you are</h1>
+          <h1>Stay productive, wherever you are</h1>
           <p>Never let location be an issue when accessing your files. Fylo has you
             covered for all of your file storage needs.</p>
           <p>Securely share files and folders with friends, family and colleagues for live
