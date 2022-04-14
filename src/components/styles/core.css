@@ -257,6 +257,12 @@ p {
 
 @media (max-width: 600px) {
 
+    .quotes {
+        position: absolute ;
+        transform: translate(-30%, -70%);
+        height: 3vh;
+    
+    }
     .container-core {
         grid-template-rows: 0.55fr 1fr 0.6fr 0.8fr;
         gap: 0;
@@ -306,11 +312,15 @@ p {
         gap: 4vh;
     }
 
+    .review-card > p {
+        width: 80vw;
+        
+    }
     .review-card {
-        width: 70vw;
+        width: 80vw;
         height: 20vh;
-        justify-content: center;
         padding: 20px;
+        flex-wrap: nowrap;
     }
 
     .container-text-feat {
