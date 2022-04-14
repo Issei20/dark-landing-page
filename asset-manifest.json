@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/dark-landing-page/static/css/main.fe30b181.css",
+    "main.css": "/dark-landing-page/static/css/main.03790d7c.css",
     "main.js": "/dark-landing-page/static/js/main.c984bd24.js",
     "static/media/illustration-files.png": "/dark-landing-page/static/media/illustration-files.c20d85255009f195b4a6.png",
     "static/media/illustration-stay-productive.png": "/dark-landing-page/static/media/illustration-stay-productive.5d7a50ea74b08000cd67.png",
@@ -15,11 +15,11 @@
     "static/media/bg-curvy-mobile.svg": "/dark-landing-page/static/media/bg-curvy-mobile.3ab5d2c7091bda722a7b84824c5a0ce9.svg",
     "static/media/icon-location.svg": "/dark-landing-page/static/media/icon-location.a681f02d94e561498fa0781c3538edac.svg",
     "static/media/icon-email.svg": "/dark-landing-page/static/media/icon-email.201ea9e2e87effbe720d0f8b77fba022.svg",
-    "main.fe30b181.css.map": "/dark-landing-page/static/css/main.fe30b181.css.map",
+    "main.03790d7c.css.map": "/dark-landing-page/static/css/main.03790d7c.css.map",
     "main.c984bd24.js.map": "/dark-landing-page/static/js/main.c984bd24.js.map"
   },
   "entrypoints": [
-    "static/css/main.fe30b181.css",
+    "static/css/main.03790d7c.css",
     "static/js/main.c984bd24.js"
   ]
 }
