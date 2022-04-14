@@ -1,0 +1,370 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    color: white;
+ 
+}
+
+p {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.container-core {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1.5fr 1fr 1fr 0.5fr;
+    justify-items: center;
+    gap: 5vh;
+   
+}
+
+.container-intro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3.5vh;
+    width: 100%;
+    background: hsl(217, 28%, 15%);
+    z-index: 1;
+    background-image: url("../images/bg-curvy-desktop.svg");
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: contain;
+    
+}
+
+.container-intro > h1 {
+    font-size: 2.4rem;
+    z-index: 3;
+    display: flex;
+    flex-wrap: wrap;
+    width: 40vw;
+    text-align: center;
+}
+
+.container-intro > p {
+    font-size: 1rem;
+    z-index: 3;
+    display: flex;
+    flex-wrap: wrap;
+    width: 25vw;
+    text-align: center;
+}
+
+.container-intro > h1 ~ p {
+    text-align: center;
+}
+
+.container-intro > img {
+    z-index: 3;
+}
+
+
+.get-started-btn {
+    width: 14vw;
+    height: 5vh;
+    border-radius: 2rem;
+    border-style: none;
+    padding-left: 1vw;
+    z-index: 4;
+    background: linear-gradient(112deg, rgba(101,219,226,1) 0%, rgba(62,173,207,1) 60%);
+    color: white;
+    font-size: 1rem;
+    font-weight: bold;
+    transition: all 150ms ease-in-out;
+}
+
+.get-started-btn:hover {
+    background: linear-gradient(112deg, rgb(111, 228, 235) 0%, rgb(84, 195, 230) 60%);
+    cursor: pointer;
+}
+
+.container-features {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 6vw;
+    margin-top: 7vh;
+    margin-bottom: 5vh;
+    text-align: center;
+    z-index: 4;
+}
+
+
+
+.feature-card {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 1.5vh;
+}
+
+.feature-card > h2 ~ p {
+    text-align: center;
+}
+
+.feature-card {
+    padding-left: 10px;
+    padding-right: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 18vw;
+    text-align: center;
+}
+
+.featureImg {
+    height: 4.2rem;
+    margin-bottom: 1vh;
+}
+
+.container-announce {
+    display: flex;
+    align-items: center;
+    gap: 5vw;
+
+}
+
+
+.container-reviews {
+    display: flex;
+    gap: 2vw;
+    margin-bottom: 40vh;
+}
+
+.container-text-feat {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 25vw;
+    gap: 2vh;
+}
+
+
+.review-card {
+    display: flex;
+    width: 15vw;
+    flex-wrap: wrap;
+    background-color:hsl(219deg, 30%, 18%);
+    border-radius: 0.3rem;
+    box-shadow: 1px 4px 7px 3px rgba(0, 0, 0, 0.034);
+    padding: 2vw;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.profil {
+    display: flex;
+    gap: 1vw;
+    font-size: 0.7rem;
+    align-items: center;
+
+}
+
+.nameReview {
+    font-weight: bold;
+    font-size: 0.9rem;
+}
+
+.containerEarly {
+    background-color: hsl(217, 28%, 15%);
+    padding: 4vh;
+    display: flex;
+    flex-direction: column;
+    gap: 3.5vh;
+    padding-right: 6vw;
+    padding-left: 6vw;
+    width: 35vw;
+    left: 50%;
+    transform: translate(-50%, 160%);
+    align-items: center;
+    border-radius: 0.3rem;
+    box-shadow: 1px 4px 7px 3px rgba(0, 0, 0, 0.034);
+    position: absolute;
+    background-color:hsl(217, 28%, 15%);
+}
+
+.containerEarly > h1 {
+    padding: 0;
+    margin-bottom: -10px;
+}
+
+.pEarly {
+    text-align: center;
+}
+
+.inputEarly {
+    display: flex;
+    gap: 1.5vw;
+}
+
+.inputEarly > input {
+    width: 26vw;
+    height: 5vh;
+    border-radius: 2rem;
+    border-style: none;
+    padding-left: 1vw;
+}
+
+.inputEarly > button {
+    width: 10vw;
+    border-radius: 2rem;
+    border-style: none;
+    background: linear-gradient(112deg, rgba(101,219,226,1) 0%, rgba(62,173,207,1) 60%);
+    color: white;
+    font-size: 1rem;
+    font-weight: bold;
+    transition: all 150ms ease-in-out;
+    
+}
+
+.inputEarly > button:hover {
+    background: linear-gradient(112deg, rgb(117, 226, 231) 0%, rgb(94, 199, 231)60%);
+    cursor: pointer;
+}
+
+.fyloSee {
+    color: hsl(176, 68%, 64%);
+    text-underline-offset: 0.3rem;
+}
+
+.fyloSee:hover {
+    color: white;
+    cursor: pointer;
+}
+
+.quotes {
+    position: absolute ;
+    transform: translate(-50%, -40%);
+}
+
+.imgProfile {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+}
+
+.emailError {
+    align-self: flex-start;
+    margin-top: -20px;
+    color: rgb(240, 54, 54);
+    font-weight: bold;
+    height: 20px;
+}
+
+@media (max-width: 600px) {
+
+    .container-core {
+        grid-template-rows: 0.55fr 1fr 0.6fr 0.8fr;
+        gap: 0;
+    }
+    .container-intro {
+        max-width: 100vw;
+        height: 65vh;
+    }
+    
+    .container-intro > h1 {
+        font-size: 1.5rem;
+        width: 80vw;
+    }
+
+     
+    .container-intro > p {
+        width: 90vw;
+    }
+
+    .feature-card {
+        padding-left: 10px;
+        padding-right: 10px;
+        display: flex;
+        flex-wrap: wrap;
+        width: 80vw;
+        text-align: center;
+    }
+
+    .get-started-btn {
+        height: 10vh !important;
+        width: 60vw;
+        display: flex;
+        padding: 12px;
+        justify-content: center;
+        align-items: center;
+        font-size: 0.9rem;
+    }
+
+    .container-features {
+        grid-template-columns: 1fr;
+        margin-top: 20vh;
+        gap: 15vh;
+    }
+
+    .container-reviews {
+        flex-direction: column;
+        gap: 4vh;
+    }
+
+    .review-card {
+        width: 70vw;
+        height: 20vh;
+        justify-content: center;
+        padding: 20px;
+    }
+
+    .container-text-feat {
+        display: flex;
+        flex-wrap: wrap;
+        width: 80vw;
+    }
+
+    .container-announce {
+        flex-direction: column;
+        max-width: 100vw;
+        gap: 2vh;
+        margin-top: 20vh;
+        margin-bottom: 20vh;
+    }
+
+    .illustrationStay {
+        max-width: 90vw;
+    }
+
+    .illu-people {
+        max-width: 90vw;
+        margin-top: 10vh;
+    }
+
+    .containerEarly {
+        width: 82vw;
+        transform: translate(-50%, 240%);
+        height: 38vh;
+        justify-content: center;
+        gap: 4vh;
+    }
+
+    .containerEarly > h1 {
+        font-size: 1.3rem;
+        padding-top: 5px;
+    }
+
+
+    .inputEarly {
+        flex-direction: column;
+        gap: 3vh;
+    }
+
+    .inputEarly > button {
+        width: 73vw;
+        height: 6vh;
+        margin-bottom:-10px;
+    }
+
+    .inputEarly > input {
+        padding-left: 10px;
+        width: 70vw;
+        height: 6vh;
+    }
+}
+

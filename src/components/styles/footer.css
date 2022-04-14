@@ -1,0 +1,162 @@
+footer {
+    padding: 20vh;
+    background-color: hsl(216, 53%, 9%);
+}
+
+.container-footer-items {
+    display: grid;
+    grid-template-columns: 0.8fr 0.6fr 0.3fr 0.3fr 0.5fr;
+    grid-template-rows: 0.5fr 1fr;
+    gap: 2vw;
+    column-gap: 5vw;
+}
+
+.logoFooter {
+    grid-column: 1/2;
+    grid-row: 1/2;
+}
+
+.locationFooter {
+    grid-column: 1/2;
+    grid-row: 2/3;
+    display: flex;
+    gap: 1vw;
+}
+
+.contactFooter {
+    grid-column: 2/3;
+    grid-row: 2/3;
+    display: flex;
+    flex-direction: column;
+    gap: 2vh;
+}
+
+.contactFooter > div {
+    display: flex;
+    gap: 1vw;
+}
+
+.listAbout {
+    grid-column: 3/4;
+    grid-row: 2/3;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5vh;
+}
+
+.listContact {
+    grid-column: 4/5;
+    grid-row: 2/3;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5vh;
+}
+
+.socialMedia {
+    grid-column: 5/6;
+    grid-row: 2/3;
+    display: flex;
+    gap: 0.7vw;
+}
+
+.phone {
+    transform:rotate(-20deg);
+}
+
+.iconFooter {
+    height: 20px;
+    width: 20px;
+}
+
+.social {
+    border: 1px solid white;
+    border-radius: 50%;
+    padding: 10px;
+}
+
+.social:hover {
+    color: hsl(176, 68%, 64%);
+    border-color: hsl(176, 68%, 64%);
+    cursor: pointer;
+}
+
+
+.locationDot {
+    height: 17px;
+    width: 17px;
+    margin-top: 5px;
+}
+
+
+
+@media (max-width: 600px) {
+    footer {
+        display: flex;
+        justify-content: flex-start;
+        padding-top: 20vh;
+        padding-left: 8vw;
+        padding-right: 8vw;
+        padding-bottom: 50px;
+    }
+
+    .container-footer-items {
+        grid-template-columns: 1fr;
+        padding-top: 12vh;
+        gap: 10vh;
+    }   
+
+    .logoFooter {
+        grid-column: 1/2;
+        grid-row: 1/2;
+    }
+    
+    .locationFooter {
+        grid-column: 1/2;
+        grid-row: 2/3;
+        display: flex;
+        gap: 4vw;
+    }
+    
+    .contactFooter {
+        grid-column: 1/2;
+        grid-row: 3/4;
+        display: flex;
+        flex-direction: column;
+        gap: 2vh;
+    }
+    
+    .contactFooter > div {
+        display: flex;
+        gap: 3vw;
+    }
+    
+    .listAbout {
+        grid-column: 1/2;
+        grid-row: 4/5;
+        list-style: none;
+        display: flex;
+        flex-direction: column;
+        gap: 1.5vh;
+    }
+    
+    .listContact {
+        grid-column: 1/2;
+        grid-row: 5/6;
+        list-style: none;
+        display: flex;
+        flex-direction: column;
+        gap: 1.5vh;
+    }
+    
+    .socialMedia {
+        grid-column: 1/2;
+        grid-row: 6/7;
+        display: flex;
+        gap: 4vw;
+        justify-content: center;
+    }
+    
+
+}
