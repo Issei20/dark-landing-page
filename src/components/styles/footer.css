@@ -106,7 +106,7 @@ footer {
 
     .container-footer-items {
         grid-template-columns: 1fr;
-        padding-top: 12vh;
+        padding-top: 16vh;
         gap: 10vh;
     }   
 
